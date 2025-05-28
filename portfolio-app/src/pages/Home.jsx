@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom'
 
 function Home() {
     return (
-        <div>
-            <h2>This is the home page</h2>
+        <div className="main">
+            <h2>Home Page</h2>
             <div className="about">
-                <p>This is where my 'about' bio will go</p>
+                <p>About me</p>
             </div>
             <div className="sections">
-                <p>This is where the other sections will go</p>
                 <Link to='/academic'>
                     <button>Academic</button>
                 </Link>
